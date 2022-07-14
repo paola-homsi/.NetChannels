@@ -115,4 +115,4 @@ channel.Writer.TryComplete();
 ## Summary
 Channels are not a very common feature that we read about very commonly, especially in the .NET community, but knowing that the .NET provides us with such a feature opens up a lot of ideas and solutions to problems we already had and either solved them in inefficient or complex ways. It’s a powerful tool that simplifies any producer/consumer pattern and let us think of new ways to solve our problems.
 
-Good luck ^_^
+Enjoy Channels ^_^
