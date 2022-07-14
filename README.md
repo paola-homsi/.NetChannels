@@ -1,5 +1,6 @@
 # ChannelsDemo
-# This is a demo for using channels in .Net Core 3.1
+### This is a demo for using channels in .Net Core 3.1
+### [Medium article](https://medium.com/@paulahomsi_50101/net-channels-a21198e7103c)
 
 ## Introduction
 Before diving into channels, I want to talk about the situation that led me to use them in the first place. So one day at work, we had a problem where we had an API. This API receives a request, does some processing (we’ll call it work1), then does some other processing (required but not related to the actual response returned in the API and we’ll call it work2) and finally returns the response.
