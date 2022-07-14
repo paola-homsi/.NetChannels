@@ -1,4 +1,4 @@
-# .NET Core Channels
+# .NET Core Channels Guide
 ### This is a demo for using channels in .Net Core 3.1
 ### [Medium article](https://medium.com/@paulahomsi_50101/net-channels-a21198e7103c)
 
