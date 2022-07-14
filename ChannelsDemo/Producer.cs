@@ -17,10 +17,9 @@ namespace ChannelsDemo
             {
                 await Task.Delay(100);
                 while (await _writer.WaitToWriteAsync().ConfigureAwait(false))
-                {
-                    while (!_writer.TryWrite(i.ToString())) ;
-                    break;
-                }
+                    if (_writer.TryWrite(i.ToString()))
+                        break; 
+                
             }
         }
     }
