@@ -18,7 +18,7 @@ Channel is a concept for passing data between producers and consumers. More spec
 
 Channels use ConcurrentQueue as a data structure in .NET so it can be thread safe and multiple producers/consumers can read/write to it safely.
 
-![Channel concept](ChannelsDemo/assets/channels.png)
+![Channel concept](DotNetChannels/assets/channels.png)
 
 ## Creating Channels
 Before start creating a channel in the code, we need to highlight a couple points
