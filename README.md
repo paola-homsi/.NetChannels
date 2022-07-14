@@ -54,8 +54,8 @@ When we create a channel we get a ChannelWriter object which has multiple method
 ```
 while (await _writer.WaitToWriteAsync().ConfigureAwait(false))
 {
-    while(await _writer.TryWriteAsync(message));
-    break;
+   if (_writer.TryWrite(i.ToString()))
+      break;
 }
 ```
   
